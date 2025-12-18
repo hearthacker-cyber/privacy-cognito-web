@@ -67,7 +67,8 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 transition-all duration-300",
+        "z-[1050]",
         isScrolled
           ? "glass py-3"
           : "bg-transparent py-4"
@@ -229,7 +230,7 @@ export function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-3 min-w-[44px] min-h-[44px] rounded-lg hover:bg-accent transition-colors flex items-center justify-center"
+              className="lg:hidden p-3 min-w-[44px] min-h-[44px] rounded-lg hover:bg-accent transition-colors flex items-center justify-center relative z-[1060] pointer-events-auto"
               aria-label="Toggle menu"
               type="button"
             >
