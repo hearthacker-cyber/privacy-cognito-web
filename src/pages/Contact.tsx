@@ -14,22 +14,22 @@ const contactMethods = [
     icon: Mail,
     title: "Email Us",
     description: "Send us a message anytime",
-    contact: "hello@datawise.io",
-    action: "mailto:hello@datawise.io",
+    contact: "office@idmap.org",
+    action: "mailto:office@idmap.org",
   },
   {
     icon: Phone,
     title: "Call Us",
     description: "Mon-Fri from 8am to 6pm",
-    contact: "+1 (415) 555-1234",
-    action: "tel:+14155551234",
+    contact: "+ 44 204 5799191",
+    action: "tel:+442045799191",
   },
   {
     icon: MapPin,
     title: "Visit Us",
-    description: "Come say hello at our HQ",
-    contact: "100 Innovation Drive, SF",
-    action: "https://maps.google.com",
+    description: "Global Headquarters",
+    contact: "Contact us for details",
+    action: "#",
   },
   {
     icon: MessageSquare,
@@ -41,10 +41,7 @@ const contactMethods = [
 ];
 
 const offices = [
-  { city: "San Francisco", address: "100 Innovation Drive, CA 94105", timezone: "PST" },
-  { city: "New York", address: "350 Fifth Avenue, NY 10118", timezone: "EST" },
-  { city: "London", address: "1 Canada Square, E14 5AB", timezone: "GMT" },
-  { city: "Singapore", address: "1 Raffles Place, 048616", timezone: "SGT" },
+  { city: "Global Headquarters", address: "Contact us for location details", timezone: "GMT" },
 ];
 
 export default function Contact() {
@@ -57,10 +54,10 @@ export default function Contact() {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Get in Touch
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-white/70">
               Have questions about DataWise? We'd love to hear from you. 
               Send us a message and we'll respond as soon as possible.
             </p>

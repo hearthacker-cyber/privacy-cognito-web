@@ -25,24 +25,24 @@ export function HeroSection() {
       <div className="container mx-auto px-4 pt-32 pb-20 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-fade-in">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 mb-8 animate-fade-in">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-success"></span>
             </span>
-            <span className="text-sm font-medium text-foreground">
+            <span className="text-sm font-medium text-white">
               Trusted by 500+ enterprises worldwide
             </span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
             Privacy-Native
             <span className="block gradient-text">Intelligence Platform</span>
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Transform your data strategy with privacy-first identity resolution, 
             consent automation, and predictive analytics. Build trust while 
             unlocking powerful customer insights.
@@ -57,7 +57,7 @@ export function HeroSection() {
               </Button>
             </Link>
             <Link to="/platform">
-              <Button size="lg" variant="outline" className="px-8 py-6 text-lg border-border hover:bg-accent">
+              <Button size="lg" variant="outline" className="px-8 py-6 text-lg border-white/30 text-white hover:bg-white/10 hover:text-white">
                 <Play className="mr-2 w-5 h-5" />
                 Watch Demo
               </Button>
@@ -65,7 +65,7 @@ export function HeroSection() {
           </div>
 
           {/* Trust Indicators */}
-          <div className="flex flex-wrap items-center justify-center gap-8 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-wrap items-center justify-center gap-8 text-white/60 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2">
               <Shield className="w-5 h-5 text-success" />
               <span className="text-sm">GDPR Compliant</span>

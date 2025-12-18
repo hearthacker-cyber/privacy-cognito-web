@@ -70,12 +70,12 @@ export default function IdentityGraph() {
               <span className="text-sm font-medium">Platform Product</span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               IdentityGraph™
               <span className="block gradient-text">Unified Identity Resolution</span>
             </h1>
             
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
               Connect fragmented customer data across devices, channels, and touchpoints 
               with deterministic and probabilistic matching for a complete customer view.
             </p>
