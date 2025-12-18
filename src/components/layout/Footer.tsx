@@ -191,26 +191,25 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-muted-foreground mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  100 Innovation Drive<br />
-                  San Francisco, CA 94105
+                  Global Headquarters
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-muted-foreground" />
                 <a
-                  href="mailto:hello@datawise.io"
+                  href="mailto:office@idmap.org"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  hello@datawise.io
+                  office@idmap.org
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-muted-foreground" />
                 <a
-                  href="tel:+14155551234"
+                  href="tel:+442045799191"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +1 (415) 555-1234
+                  + 44 204 5799191
                 </a>
               </li>
             </ul>

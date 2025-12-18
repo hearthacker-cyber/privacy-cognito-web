@@ -55,12 +55,12 @@ export default function About() {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Building the Future of
               <span className="block gradient-text">Privacy-First Intelligence</span>
             </h1>
             
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
               We're on a mission to help enterprises unlock the power of their data 
               while respecting user privacy and building lasting trust.
             </p>

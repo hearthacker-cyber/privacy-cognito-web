@@ -201,8 +201,9 @@ export function Navbar() {
             {/* Theme Toggle */}
             <button
               onClick={() => setIsDark(!isDark)}
-              className="p-2 rounded-lg hover:bg-accent transition-colors"
+              className="p-3 min-w-[44px] min-h-[44px] rounded-lg hover:bg-accent transition-colors flex items-center justify-center"
               aria-label="Toggle theme"
+              type="button"
             >
               {isDark ? (
                 <Sun className="w-5 h-5 text-foreground" />
@@ -228,8 +229,9 @@ export function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg hover:bg-accent transition-colors"
+              className="lg:hidden p-3 min-w-[44px] min-h-[44px] rounded-lg hover:bg-accent transition-colors flex items-center justify-center"
               aria-label="Toggle menu"
+              type="button"
             >
               {isMobileMenuOpen ? (
                 <X className="w-6 h-6 text-foreground" />

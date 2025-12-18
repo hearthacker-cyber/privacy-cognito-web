@@ -100,10 +100,10 @@ export default function Blog() {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               DataWise Blog
             </h1>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-lg text-white/70 mb-8">
               Insights, tutorials, and best practices for privacy-first data intelligence.
             </p>
             

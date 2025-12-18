@@ -80,10 +80,10 @@ export default function Demo() {
               <span className="text-sm font-medium">Request Demo</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               See DataWise in Action
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-white/70">
               Get a personalized demo tailored to your specific use cases and challenges.
             </p>
           </div>

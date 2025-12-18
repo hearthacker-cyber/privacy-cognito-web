@@ -82,12 +82,12 @@ export default function RetailIndustry() {
               <span className="text-sm font-medium">Retail & E-commerce</span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Transform Retail with
               <span className="block gradient-text">Privacy-First Intelligence</span>
             </h1>
             
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
               Unify customer journeys across online and offline touchpoints for 
               personalized shopping experiences that drive conversions and loyalty.
             </p>
